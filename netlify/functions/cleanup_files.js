@@ -1,6 +1,6 @@
 // Вспомогательная функция для удаления файла по имени
 async function deleteFileFromGitHub(filename, sha, token) {
-    const apiUrl = `https://api.github.com/repos/zpvapp/iptv-me/contents/${filename}`;
+    const apiUrl = `https://api.github.com/repos/zpvapp/iptv/contents/${filename}`;
     
     const response = await fetch(apiUrl, {
         method: 'DELETE',
@@ -33,4 +33,5 @@ exports.handler = async (event, context) => {
     //      b. Вызвать await deleteFileFromGitHub(...)
     // 4. Вернуть успешный ответ
 };
+
 */
