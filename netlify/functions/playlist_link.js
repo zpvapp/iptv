@@ -9,7 +9,7 @@
  * - CLIENTS_FILE_PATH (должно быть 'public/clients.json')
  * - BASE_URL (должно быть 'https://iptv-me.netlify.app/') 
  * - TEST_DURATION_MS (напр., 300000 для 5 минут)
- * - TEST_PLAYLIST_URL (напр., https://raw.githubusercontent.com/zpvapp/iptv-me/main/playlist.m3u8)
+ * - TEST_PLAYLIST_URL (напр., https://raw.githubusercontent.com/zpvapp/iptv/main/playlist.m3u8)
  */
 
 const GITHUB_OWNER = process.env.GITHUB_OWNER;
@@ -111,3 +111,4 @@ exports.handler = async function(event, context) {
     }
 
 }
+
